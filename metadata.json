@@ -1,0 +1,6 @@
+{
+  "name": "StreamFlix",
+  "description": "Netflix-style streaming application with TMDB movies and TV series, episode selector, Continue Watching history, and VidSrc multi-mirror player.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

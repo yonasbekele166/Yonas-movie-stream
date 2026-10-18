@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Left vertical red stem -->
+    <path
+        android:pathData="M35,26 L47,26 L47,82 L35,82 Z"
+        android:fillColor="#E50914" />
+
+    <!-- Right vertical red stem -->
+    <path
+        android:pathData="M61,26 L73,26 L73,82 L61,82 Z"
+        android:fillColor="#E50914" />
+
+    <!-- Diagonal folding ribbon with shadow -->
+    <!-- Drop shadow underneath diagonal ribbon -->
+    <path
+        android:pathData="M35,26 L48,26 L74,82 L61,82 Z"
+        android:fillColor="#40000000" />
+
+    <!-- Foreground diagonal ribbon -->
+    <path
+        android:pathData="M35,26 L47,26 L73,82 L61,82 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="35"
+                android:startY="26"
+                android:endX="73"
+                android:endY="82"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF1A26" />
+                <item android:offset="0.5" android:color="#E50914" />
+                <item android:offset="1.0" android:color="#B20710" />
+            </gradient>
+        </aapt:attr>
+    </path>
+</vector>
